@@ -13,5 +13,5 @@ def root():
 
 @app.post('/')
 def calc(data: Data):
-    z = data.x * data.y
+    z = data.x + data.y
     return {'result': z}

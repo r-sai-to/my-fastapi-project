@@ -2,7 +2,7 @@ import requests
 import json
 
 def main():
-    url = 'http://127.0.0.1:8000/'
+    url = 'https://my-fastapi-project-s92w.onrender.com/'
     data = {
         'x': 3,
         'y': 4
